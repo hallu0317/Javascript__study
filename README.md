@@ -15,7 +15,7 @@
 - ES6 이전 : var str = "나는 " + (a+b) + "살이고 " + c + "를 좋아한다.";
 - ES6 이후 : let str = `나는 ${a+b}살이고 ${c}를 좋아한다.`;
 
-#### 문자 
+#### 함수
 - charAt(n) : n번째 문자를 출력
 - indexOf("?") : ?라는 글자가 있다면 글자의 인덱스를 출력, 없다면 -1
 - includes("?") : ?라는 글자가 있다면 true, 없다면 false 출력
@@ -28,8 +28,7 @@
 - 문자열 => 정수 : Number(str); , parseInt(str);
 
 ### ... 전개구문
-- let arr = [1,2,3]
-- let arr2 = [...arr]
+- let arr = [1,2,3] , let arr2 = [...arr]
 - console.log(arr2) = [1,2,3]
 
 
