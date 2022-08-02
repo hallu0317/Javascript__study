@@ -10,6 +10,10 @@
 초기화 없이 선언된 변수는 undefined 값을 가지며 접근을 시도하는 경우 ReferenceError 예외가 발생함.
 
 ---
+### 숫자, 문자 등 체크
+- isNaN() : Not a Number의 약자로 숫자인지 아닌지 확인하는 함수이다. isNaN(a) = true, isNan(1) = false    
+- typeof() : 데이터의 자료형을 확인 ex : (typeof "ABC"), (typeof "123")
+---
 ### 템플릿 리터럴
 - var a= 20, b=5, c= "자바스크립트"
 - ES6 이전 : var str = "나는 " + (a+b) + "살이고 " + c + "를 좋아한다.";
