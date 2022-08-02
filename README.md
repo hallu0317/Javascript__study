@@ -31,6 +31,8 @@
   ex) const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present']   
       const result = words.filter(word => word.length > 6);    
       => ["exuberant", "destruction", "present"]   
+      
+      var answer = arr.filter(v=>v%divisor==0)
 
 - reduce() : 누산기(acc), 현재값(cur), 현재 인덱스(idx), 원본 배열(src) 네 개의 인자를 가진다.   
   ex) [0,1,2,3,4].reduce( (prev, curr) => prev + curr);    
