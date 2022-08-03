@@ -41,6 +41,12 @@
 - reduce() : 누산기(acc), 현재값(cur), 현재 인덱스(idx), 원본 배열(src) 네 개의 인자를 가진다.   
   ex) [0,1,2,3,4].reduce( (prev, curr) => prev + curr);    
   ex) var sum = [0, 1, 2, 3].reduce((acc,cur) => acc+cur,0);   
+  
+- Set() : 객체의 중복되는 값을 제거하는 함수이며 인덱스로 요소에 접근할 수 없다   
+  ex) const set = new Set(value);   
+     -> return 값을 [...value]로 처리해야함.   
+  ex) const set = [...new Set(value)]; (권장)   
+  
 ---
 ### 형변환
 - 정수 => 문자열 : String(num); , num.toString();
