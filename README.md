@@ -44,7 +44,7 @@
   
 - Set() : 객체의 중복되는 값을 제거하는 함수이며 인덱스로 요소에 접근할 수 없다   
   ex) const set = new Set(value);   
-     -> return 값을 [...value]로 처리해야함.   
+      ㄴ return 값을 [...set]로 처리해야함.   
   ex) const set = [...new Set(value)]; (권장)   
   
 ---
