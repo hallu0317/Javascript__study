@@ -38,7 +38,8 @@
       
       var answer = arr.filter(v => v % divisor == 0)
 
-- reduce() : 누산기(acc), 현재값(cur), 현재 인덱스(idx), 원본 배열(src) 네 개의 인자를 가진다.   
+- reduce() : 누산기(acc), 현재값(cur), 현재 인덱스(idx), 원본 배열(src) 네 개의 인자를 가진다.  
+  ex) numbers라는 배열이 있을 때 for문 대신 => numbers.reduce((acc,cur)=>acc+cur)로 
   ex) [0,1,2,3,4].reduce( (prev, curr) => prev + curr);    
   ex) var sum = [0, 1, 2, 3].reduce((acc,cur) => acc+cur,0);   
   
